@@ -27,10 +27,10 @@ config :phoenix, :json_library, Jason
 import_config "#{Mix.env()}.exs"
 
 config :exldap, :settings,
-  server: "ldap.forumsys.com",
-  base: "dc=example,dc=com",
+  server: "ldap://10.4.1.5:389",
+  base: "DC=alumnos,DC=uem,DC=es",
   port: 389,
   ssl: false,
-  user_dn: "cn=read-only-admin,dc=example,dc=com",
-  password: "password",
+  user_dn: "CN=validacion_externa_trabajando,OU=applications_users,DC=uem,DC=es",
+  password: "Test23Ldap",
   search_timeout: 5_000
