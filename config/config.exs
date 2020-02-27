@@ -27,10 +27,9 @@ config :phoenix, :json_library, Jason
 import_config "#{Mix.env()}.exs"
 
 config :exldap, :settings,
-  server: "ldap://10.4.1.5:389",
+  server: "193.146.182.30:636",
   base: "DC=alumnos,DC=uem,DC=es",
   port: 389,
-  ssl: false,
+  ssl: true,
   user_dn: "CN=validacion_externa_trabajando,OU=applications_users,DC=uem,DC=es",
-  password: "Test23Ldap",
   search_timeout: 5_000
