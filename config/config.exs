@@ -27,9 +27,9 @@ config :phoenix, :json_library, Jason
 import_config "#{Mix.env()}.exs"
 
 config :exldap, :settings,
-  server: "193.146.182.30:636",
+  server: "193.147.239.148",
   base: "DC=alumnos,DC=uem,DC=es",
   port: 389,
-  ssl: true,
+  ssl: false,
   user_dn: "CN=validacion_externa_trabajando,OU=applications_users,DC=uem,DC=es",
   search_timeout: 5_000
