@@ -28,9 +28,8 @@ import_config "#{Mix.env()}.exs"
 
 config :exldap, :settings,
   server: "193.147.239.148",
-  base: "DC=ALUMNOS,DC=UEM,DC=ES",
+  base: "dc=alumnos,dc=uem,dc=es",
   port: 389,
   ssl: false,
-  password: "Aplicaciones2020@",
-  user_dn: "OU=ALUMNOS,DC=ALUMNOS,DC=UEM,DC=ES",
+  user_dn: "ou=ALUMNOS,dc=ALUMNOS,dc=UEM,dc=ES",
   search_timeout: 5_000
