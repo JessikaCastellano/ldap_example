@@ -31,5 +31,6 @@ config :exldap, :settings,
   base: "DC=ALUMNOS,DC=UEM,DC=ES",
   port: 389,
   ssl: false,
+  password: "Aplicaciones2020@",
   user_dn: "OU=ALUMNOS,DC=ALUMNOS,DC=UEM,DC=ES",
   search_timeout: 5_000
