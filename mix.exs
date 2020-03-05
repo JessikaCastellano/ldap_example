@@ -39,7 +39,8 @@ defmodule LdapExample.MixProject do
       {:gettext, "~> 0.11"},
       {:jason, "~> 1.0"},
       {:plug_cowboy, "~> 2.0"},
-      {:exldap, "~> 0.3.4"}
+      {:exldap, "~> 0.3.4"},
+      {:paddle, "~> 0.1.0"}
     ]
   end
 end

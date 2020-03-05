@@ -33,3 +33,9 @@ config :exldap, :settings,
   ssl: false,
   user_dn: "ou=ALUMNOS,dc=ALUMNOS,dc=UEM,dc=ES",
   search_timeout: 5_000
+
+config :paddle, Paddle,
+  host: "193.147.239.148",
+  base: "OU=ALUMNOS,DC=ALUMNOS,DC=UEM,DC=ES",
+  ssl: false,
+  port: 389
