@@ -28,7 +28,7 @@ import_config "#{Mix.env()}.exs"
 
 config :exldap, :settings,
   server: "193.147.239.148",
-  base: "dc=alumnos,dc=uem,dc=es",
+  base: "DC=UEM,DC=ES",
   port: 389,
   ssl: false,
   user_dn: "ou=ALUMNOS,dc=ALUMNOS,dc=UEM,dc=ES",
